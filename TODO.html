@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> TO-DOS </title>
+        <link rel="stylesheet" href="TODO.css"></link>
+        <link rel="stylesheet" href="todo.js"></link>
+    </head>
+
+    <body>
+        <style>
+            body{
+                background-color: aqua;; background-repeat: no-repeat;background-attachment: fixed;background-size: cover;
+            }
+            p{
+                font-size: x-large;
+            }
+            ul.no-bullets{
+                list-style-type: none;
+                margin: 0%;
+                padding: 0%;
+            }
+            li{
+                font-size: x-large;
+            }
+        </style>
+        <main>
+            <section id="home">
+                <div class="section-inner">
+                    <img src="20220203_221450.jpg" class="profile-img">
+                    <h1>SHEILA'S TO-DO LIST</h1>
+                </div>
+            </section>
+                <div class="section-inner">
+                    <h3>List of noted to-dos...</h3>
+                    <ol class="no-bullets">
+                        <li>Buy some groceries</li>
+                        <li>Prepare myself a delicious meal</li>
+                        <li>Learn a new language</li>
+                    </ol>
+                </div>
+                <div id="section-inner"></div>
+            </section>
+
+        </main>
+    </body>
+
+    <head>  
+        <title> TO-DOs Form</title>  
+        </head>  
+        <body>  
+        <h2> TO-DOs </h2>  
+        <formform ="TO-DOs_form" onsubmit="submit_form()">  
+        <h4> MY TO-DOs </h4>  
+        <input type="text" placeholder="Add a to-do "/>  
+        <input type="button" value="ADD" onClick="create()"/>  
+        </form>
+        <script type="text/javascript">  
+            function submit_form(){  
+            alert("ADD successfully");  
+            }  
+            function create(){  
+            window.location="TODO.html";  
+            }  
+            </script>  
+</html>
